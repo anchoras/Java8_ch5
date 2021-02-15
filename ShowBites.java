@@ -3,9 +3,9 @@
 */
 
 class ShowBites {
-    public static void main (Int args[]) {
+    public static void main (String args[]) {
         int t;
-        byte number = 8;
+        byte number = 10;
 
         for (t=128; t>0; t/=2) {
             if ((number & t) == t) {
